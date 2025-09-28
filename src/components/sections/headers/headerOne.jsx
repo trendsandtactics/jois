@@ -3,7 +3,6 @@ import TopHeader from './topHeader'
 import StickyHeader from '@/components/ui/stickyHeader'
 
 // ✅ import the new logo
-import joisLogo from "@/assets/images/jois.png"
 
 const HeaderOne = () => {
   return (
