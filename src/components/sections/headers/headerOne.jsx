@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6"
 import TopHeader from './topHeader'
 import StickyHeader from '@/components/ui/stickyHeader'
 
-// ✅ New Jois logo
+// ✅ Jois logo
 
 const HeaderOne = () => {
   const [isMobleMenuActive, setIsMobleMenuActive] = useState(false)
@@ -22,20 +22,27 @@ const HeaderOne = () => {
             <div className="container py-5">
               <div className="flex justify-between items-center">
 
-                {/* === Jois Logo only === */}
+                {/* === Jois Logo === */}
                 <Link to="/" className="flex items-center">
                   <img
                     src="/jois.png"
                     alt="Jois Logo"
-                    className="h-12 w-auto"   // adjust size if needed
+                    className="h-15 w-auto"
                   />
                 </Link>
 
-                {/* === Right side: Menu + CTA + Mobile Toggle === */}
+                {/* === Menu + CTA + Mobile Toggle === */}
                 <div className="flex items-center gap-6">
                   <DesktopMenu />
 
-                  <Button asChild variant="ghost" className="sm:flex hidden">
+                  {/* CTA button using logo colors */}
+                  <Button
+                    asChild
+                    className="sm:flex hidden 
+                               bg-[#f93975] text-white 
+                               hover:bg-[#fa3a76] 
+                               focus:ring-2 focus:ring-[#f93975]"
+                  >
                     <Link to="/contact-us">
                       Get A Quote <FaArrowRight className="ml-2" />
                     </Link>
