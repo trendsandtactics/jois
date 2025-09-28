@@ -21,7 +21,7 @@ const HeaderOne = () => {
             <div className="container py-5">
               <div className="flex justify-center items-center">
                 <img
-                  src={joisLogo}
+                  src="/jois.png"
                   alt="Jois Logo"
                   className="h-12 w-auto" // adjust height as needed
                 />
