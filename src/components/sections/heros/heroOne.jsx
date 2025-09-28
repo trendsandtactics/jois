@@ -26,10 +26,10 @@ const HeroOne = () => {
             <img src={shap} alt="shap-2" className="w-5 h-8 -mt-7" />
           </div>
 
-          <p className="pt-5 max-w-[431px]">Starting a corporate business typically involves several steps, such as develo a business</p>
+          <p className="pt-5 max-w-[431px]">Where every child's journey begins with joy, curiosity, and discovery. Our Homer Eduship Curriculum nurtures young minds through play-based learning.</p>
           <div className="mt-6">
             <Button asChild variant={"secondary"} >
-              <Link to="/about-us">Learn More</Link>
+              <Link to="/about-us">Admissions</Link>
             </Button>
           </div>
         </div>
