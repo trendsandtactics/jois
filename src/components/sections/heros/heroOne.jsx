@@ -45,7 +45,7 @@ const HeroOne = () => {
         </div>
 
         <div className="lg:pt-[72px]">
-          <img src="/src/assets/painting-ByNae3xf.png" alt="painting" />
+          <img src="/painting.png" />
         </div>
       </div>
       {/* <!-- circle shap --> */}
