@@ -44,7 +44,7 @@ const HeaderOne = () => {
                                focus:ring-2 focus:ring-[#f93975]"
                   >
                     <Link to="/contact-us">
-                      Get A Quote <FaArrowRight className="ml-2" />
+                      Apply Online<FaArrowRight className="ml-2" />
                     </Link>
                   </Button>
 
