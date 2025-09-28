@@ -8,7 +8,6 @@ import TopHeader from './topHeader'
 import StickyHeader from '@/components/ui/stickyHeader'
 
 // ✅ New Jois logo
-import joisLogo from "@/assets/images/jois.png"
 
 const HeaderOne = () => {
   const [isMobleMenuActive, setIsMobleMenuActive] = useState(false)
@@ -26,7 +25,7 @@ const HeaderOne = () => {
                 {/* === Jois Logo only === */}
                 <Link to="/" className="flex items-center">
                   <img
-                    src={joisLogo}
+                    src="/jois.png"
                     alt="Jois Logo"
                     className="h-12 w-auto"   // adjust size if needed
                   />
