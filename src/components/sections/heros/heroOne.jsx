@@ -36,12 +36,12 @@ const HeroOne = () => {
         </div>
         <div className="absolute left-2.5 lg:top-0 top-10 lg:max-w-full max-w-[200px] sm:block hidden animate-up-down">
         <img src="/boy.png" alt="banner-img-1" />
-        <span className="absolute -left-2.5 top-[9px] border-2 border-primary rounded-[125px] w-full h-full"></span>
+        <span className="absolute -left-2.5 top-[9px] rounded-[125px] w-full h-full"></span>
         </div>
 
         <div className="absolute right-0 bottom-0 pb-[71px] lg:block hidden animate-up-down">
           <img src="/girl1.png" alt="banner-img-2" />
-          <span className="absolute -left-2.5 top-[9px] border-2 border-secondary rounded-[125px] max-h-[369px] w-full h-full"></span>
+          <span className="absolute -left-2.5 top-[9px] rounded-[125px] max-h-[369px] w-full h-full"></span>
         </div>
 
         <div className="lg:pt-[72px]">
