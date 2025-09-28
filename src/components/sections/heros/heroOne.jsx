@@ -24,7 +24,7 @@ const HeroOne = () => {
           <div className="flex absolute right-[87px] top-14 animate-skw">
             <img src={shap} alt="shap-2" className="w-7.5 h-12.5 relative top-9" />
             <img src={shap} alt="shap-1" />
-            <img src={shap} alt="shap-2" className="w-5 h-8 -mt-7" />
+            <img src="/assets/painting-ByNae3xf.png" alt="shap-2" className="w-5 h-8 -mt-7" />
           </div>
 
           <p className="pt-5 max-w-[431px]">Starting a corporate business typically involves several steps, such as develo a business</p>
